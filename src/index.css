@@ -1,0 +1,155 @@
+body{
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  height: 100svh;
+  width: 100%;
+  position: relative;
+}
+
+.head{
+  height: 100px;
+  width: 100%;
+  /* border: 1px,solid,black; */
+  display: flex;
+  text-wrap: wrap;
+  align-items: center;
+  background-color:#50577A;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  
+  /*   */
+}
+.head img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.space{
+  margin-left: 80px;
+}
+.head h1{
+ 
+  font-size: 50px;
+  margin-left: 30px;
+}
+.head h1 span{
+  color:white;
+}
+.navbar{
+  margin-top: 5px;
+  height: 50px;
+  width: 100%;
+  /* border: 1px,solid,black; */
+  display: flex;
+  /* justify-content: 20px; */
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 350px;
+  
+  
+}
+
+
+@media (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .icon {
+    align-self: flex-end;
+    margin-top: 1rem;
+  }
+}
+
+
+
+
+
+.box{
+  height: 35px;
+  width: 100px;
+  /* border: 1px,solid,black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.5s;
+  margin-left: 80px;
+  background-color: white;
+  color:purple;
+  
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* position: relative; */
+}
+
+
+.box:hover{
+  background-color: black;
+  color: white;
+}
+/* .box:hover .dropdown{
+  display: flex;
+  display: block;
+  position: absolute;
+  left: 60px;
+  top: 0%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  
+  
+}
+.dropdown {
+  list-style-type: none;
+  
+  display: none;
+}
+.list{
+  height: auto;
+  width: auto;
+}
+
+.box:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: skyblue;
+
+} */
+ 
+
+.footer{
+  height: 200px;
+  width: 100%;
+  border: 1px,solid,black;
+  background-color: black;
+}
+.icon{
+  
+  margin-right: 200px;
+  font-size: 30px;
+  margin-top: 0px;
+  
+
+}
+
+.login{
+  height: 30px;
+  width: 60px;
+  margin-left: 0px;
+}
+.login:hover{
+  background-color: blue;
+  color: white;
+}

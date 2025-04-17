@@ -1,0 +1,49 @@
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.card1{
+    height: 500px;
+    width: 350px;
+    /* border: 1px,solid,black; */
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(10, 10, 10, 10.0) 1.95px 1.95px 2.6px;
+    background-image: url(./cricket1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.card2{
+    height: 500px;
+    width: 350px;
+    /* border: 1px,solid,black; */
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(10, 10, 10, 10.0) 1.95px 1.95px 2.6px;
+    background-image: url(./basketball2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.card3{
+    height: 500px;
+    width: 350px;
+    /* border: 1px,solid,black; */
+    margin: 50px;
+    background-image: url(./football1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: rgba(10, 10, 10, 10.15) 1.95px 1.95px 2.6px;
+
+}
